@@ -1,0 +1,20 @@
+Package: ddicorpusR
+Type: Package
+Title: DDI Corpus
+Version: 0.1.0
+Authors@R: c(
+    person("Gustavo", "Bruges", email="gbruges@gmail.com", role = c("aut", "cre"))
+    )
+Maintainer: Gustavo Bruges <gbruges@gmail.com>
+Description: DDI Corpus for text mining.
+            An annotated corpus with pharmacological substances,
+            and drug–drug interactions.
+Depends:
+    R (>= 3.1)
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/gbruges/ddicorpusR
+RoxygenNote: 7.1.0
+Imports: 
+    tibble
